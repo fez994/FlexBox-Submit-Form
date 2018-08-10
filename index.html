@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FCC Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1 id="title">Flex Survey Form</h1>
+<p id="description">A simple form made with Flexbox</p>
+
+<form id="survey-form">
+  <ul class="wrapper">
+    <li class="form-row">
+      <label for="name-label">Name</label>
+      <input type="text" id="name" placeholder="Enter your name">
+    </li>
+    <li class="form-row">
+      <label for="lastname" id="lastname-label">Last Name</label>
+      <input type="text" id="lastname" placeholder="Enter your last name">
+    </li>
+
+    <li class="form-row">
+      <label for="email-label">Email Address</label>
+      <input type="email" id="email" placeholder="Enter your email">
+    </li>
+
+     <li class="form-row">
+      <label for="age" id="age-label">Age</label>
+      <input type="number" id="age" placeholder="Age" id="number" min="0" max="100">
+    </li>
+
+    <li class="form-row">
+    	<label for="car" id="car-label">Select your favourite car</label>
+    	<select id="dropdown">
+    		<option value="select" selected="true" disabled="disabled">Select an option</option>
+    		<option value="tesla">Tesla Model S</option>
+    		<option value="Lamborghini">Lamborghini</option>
+    		<option value="Ferrari">Ferrari</option>
+    		<option value="Audi">Audi</option>
+    	</select>
+    </li>
+
+   <li class="form-row">
+   		<div class="gender-label">
+      <label for="age" id="age-label">Gender</label></div>
+		<div class="gender">   
+      <input type="radio" id="male" name="male"> Male <br>
+      <input type="radio" id="male" name="female"> Female
+      </div>  
+    </li>
+
+    <li class="form-row">
+   		<div class="gender-label">
+      <label for="age" id="age-label">Favourite food?</label></div>
+		<div class="gender">   
+      <input type="checkbox" id="male" name="male"> Tortellini <br>
+      <input type="checkbox" id="male" name="female"> Lasagne
+      <input type="checkbox" id="male" name="male"> Pizza <br>
+      <input type="checkbox" id="male" name="male"> Kebab 
+      </div>  
+    </li>
+
+    <li class="form-row">
+      <label for="age" id="message-label">Leave a message</label>
+      <input type="text" id="age" placeholder="Write your message here" id="message">
+    </li>
+
+
+    <li class="form-row">
+      <button type="submit" id="submit">Submit</button>
+    </li>
+  </ul>
+
+</form>
+
+
+</body>
+</html>

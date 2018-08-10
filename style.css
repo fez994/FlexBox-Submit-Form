@@ -1,0 +1,75 @@
+html, body {
+	background-color: #a9d7d1;
+}
+
+#title  { 
+	text-align: center;
+ }
+
+ #description {
+ 	text-align: center;
+ }
+
+.wrapper {
+    background-color: whitesmoke;
+    list-style-type: none;
+    border-radius: 3px;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+.form-row {
+	display: flex;
+	justify-content: flex-end;
+    padding: .5em;
+ }
+
+ .form-row > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+    text-align: right;
+ }
+
+ .form-row > input {
+ 	flex: 2;
+ }
+  
+ .form-row > input,
+ .form-row > button {
+    padding: .5em;
+  }
+  .form-row > button {
+   background: gray;
+   color: white;
+   border: 0;
+  }
+
+
+  .form-row > select {
+  	flex: 2;
+  	padding: .5em;
+  }
+
+ 
+
+#male {
+	float: left;
+}
+
+.gender-label {
+	display: flex;
+	flex: 1;
+}
+
+.gender {
+	display: flex;
+	flex: 2;
+	flex-wrap: wrap;
+	padding: .5em 0 0 0;
+}
+
+.gender-label > label {
+	padding: .5em 1em .5em 0;
+	flex: 1;
+	text-align: right;
+}
