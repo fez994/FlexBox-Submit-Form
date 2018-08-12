@@ -9,7 +9,7 @@ This is a part of the Responsive Web Design Projects on freecodecamp, the object
 
 
 
-In order to pass this test, the project need to respect the following user stories : 
+In order to pass this test it's important to fulfill the following user stories :
 
 User Story #1: I can see a title with id="title" in H1 sized text.
 
