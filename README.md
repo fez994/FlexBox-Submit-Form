@@ -1,6 +1,6 @@
 # A survey form made with Flexbox
 
-Demo : https://codepen.io/fez994/pen/XBoWOr
+Demo : https://fez994.github.io/FlexBox-Submit-Form/
 
 
 
